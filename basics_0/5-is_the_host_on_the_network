@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-#ping uses ICMP to make sure that a network device remains online or to troubleshoot issues on the network
+#ping is used to check if a network device remains
+#online or to troubleshoot issues on the network
 if [ "$#" -eq "1" ];
 then
   ping -c 5 "$1"
